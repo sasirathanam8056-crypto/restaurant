@@ -78,7 +78,7 @@ button:hover{
     margin-top: 350px;
 }
 .background{
-  background-image: url(../background.avif);
+  background-image: url(https://tse2.mm.bing.net/th/id/OIP.PtUilt_pxWnD9hDJoYtKXQHaE8?pid=Api&P=0&h=180);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -111,7 +111,7 @@ h3{
 }
 
 .com{
-    background-image: url(../brown-wooden-table-on-coffee-shop-or-restaurant-background-free-photo.jpg);
+    background-image: url(https://static.vecteezy.com/system/resources/previews/005/140/844/large_2x/brown-wooden-table-on-coffee-shop-or-restaurant-background-free-photo.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
@@ -285,8 +285,8 @@ select{
 }
 .box1 :hover{
     /* transform:translateY(100px) translateX(100px); */
-    transform: rotateY(20deg);
-    transition-duration: 1s;
+    transform: rotateY(200deg);
+    transition-duration: 2s;
 
 }
 
@@ -338,9 +338,9 @@ input{
   /* display: flex;
   gap: 20px;
   justify-content: center; */
-  margin-top: 20px;
+  margin-top: 30px;
   display: flex;
-  margin-left: 90px;
+  margin-left: 75px;
 }
 
 .socials a {
