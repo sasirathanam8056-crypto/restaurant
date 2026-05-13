@@ -32,6 +32,21 @@
   background:linear-gradient(to top,rgba(246, 142, 50, 0.9), rgba(0,0,0,0.3));
 }
 
+@media(max-width:900px){
+    .stay-container{
+        flex-direction: column;
+    }
+    .reverse{
+        flex-direction: column;
+    }
+    .stay-content,.stay-image{
+        width: 100%;
+    }
+    .stay-content{
+        text-align: center;
+    }
+}
+
 .content{
   position:absolute;
   bottom:30px;
@@ -44,6 +59,21 @@
 .hotel-card:hover .content{
   transform:translateY(0);
   opacity:1;
+}
+
+@media(max-width:900px){
+    .stay-container{
+        flex-direction: column;
+    }
+    .reverse{
+        flex-direction: column;
+    }
+    .stay-content,.stay-image{
+        width: 100%;
+    }
+    .stay-content{
+        text-align: center;
+    }
 }
 
 .content h1{
@@ -69,6 +99,20 @@
   transition:0.3s;
 }
 
+@media(max-width:900px){
+    .stay-container{
+        flex-direction: column;
+    }
+    .reverse{
+        flex-direction: column;
+    }
+    .stay-content,.stay-image{
+        width: 100%;
+    }
+    .stay-content{
+        text-align: center;
+    }
+}
 button:hover{
   background:#222;
   color:#fff;
@@ -95,6 +139,20 @@ button:hover{
      z-index: 1;
 }
 
+@media(max-width:900px){
+    .stay-container{
+        flex-direction: column;
+    }
+    .reverse{
+        flex-direction: column;
+    }
+    .stay-content,.stay-image{
+        width: 100%;
+    }
+    .stay-content{
+        text-align: center;
+    }
+}
 h2{
     margin-top: 20px;
     color:black;
@@ -106,6 +164,20 @@ h3{
     margin-top: 20px;
     color:white;
     font-size: 18px;
+}
+@media(max-width:900px){
+    .stay-container{
+        flex-direction: column;
+    }
+    .reverse{
+        flex-direction: column;
+    }
+    .stay-content,.stay-image{
+        width: 100%;
+    }
+    .stay-content{
+        text-align: center;
+    }
 }
 .com{
     background-image: url(../brown-wooden-table-on-coffee-shop-or-restaurant-background-free-photo.jpg);
@@ -124,6 +196,20 @@ h4{
    /* box-shadow: 0px 0px 20px whitesmoke; */
    /* background-color: rgb(179, 221, 179); */
    /* background-color:rgb(177, 1, 1) ; */
+}
+@media(max-width:900px){
+    .stay-container{
+        flex-direction: column;
+    }
+    .reverse{
+        flex-direction: column;
+    }
+    .stay-content,.stay-image{
+        width: 100%;
+    }
+    .stay-content{
+        text-align: center;
+    }
 }
 hr{
     width: 90%;
@@ -152,7 +238,20 @@ select{
 .in{
     border: none;
 }
-
+@media(max-width:900px){
+    .stay-container{
+        flex-direction: column;
+    }
+    .reverse{
+        flex-direction: column;
+    }
+    .stay-content,.stay-image{
+        width: 100%;
+    }
+    .stay-content{
+        text-align: center;
+    }
+}
 .menu-container{
       width:100%;
       max-width:1100px;
@@ -220,6 +319,21 @@ select{
       font-size:14px;
 }
 
+@media(max-width:900px){
+    .stay-container{
+        flex-direction: column;
+    }
+    .reverse{
+        flex-direction: column;
+    }
+    .stay-content,.stay-image{
+        width: 100%;
+    }
+    .stay-content{
+        text-align: center;
+    }
+}
+
 /* .btn:hover{
       background:#e64a19;
       transform:scale(1.05);
@@ -241,6 +355,21 @@ select{
       0%{opacity:1;}
       50%{opacity:0.5;}
       100%{opacity:1;}
+}
+
+@media(max-width:900px){
+    .stay-container{
+        flex-direction: column;
+    }
+    .reverse{
+        flex-direction: column;
+    }
+    .stay-content,.stay-image{
+        width: 100%;
+    }
+    .stay-content{
+        text-align: center;
+    }
 }
 .management{
   width: 100%;
@@ -283,6 +412,20 @@ select{
     transform: rotatey(200deg);
     transition-duration: 3s;
 
+}
+@media(max-width:900px){
+    .stay-container{
+        flex-direction: column;
+    }
+    .reverse{
+        flex-direction: column;
+    }
+    .stay-content,.stay-image{
+        width: 100%;
+    }
+    .stay-content{
+        text-align: center;
+    }
 }
 .abt{
    margin-left: 80px;
@@ -327,6 +470,20 @@ input{
   height: 30px;
   width: 200px;
 }
+@media(max-width:900px){
+    .stay-container{
+        flex-direction: column;
+    }
+    .reverse{
+        flex-direction: column;
+    }
+    .stay-content,.stay-image{
+        width: 100%;
+    }
+    .stay-content{
+        text-align: center;
+    }
+}
 .socials {
   /* display: flex;
   gap: 20px;
@@ -352,6 +509,20 @@ input{
 
 .socials a:hover {
   transform: translateY(-10px);
+}
+@media(max-width:900px){
+    .stay-container{
+        flex-direction: column;
+    }
+    .reverse{
+        flex-direction: column;
+    }
+    .stay-content,.stay-image{
+        width: 100%;
+    }
+    .stay-content{
+        text-align: center;
+    }
 }
 .boxx{
   clear: both;
@@ -387,4 +558,18 @@ input{
   margin-left: 50px;
   margin-top: 40px;
  }
+ @media(max-width:900px){
+    .stay-container{
+        flex-direction: column;
+    }
+    .reverse{
+        flex-direction: column;
+    }
+    .stay-content,.stay-image{
+        width: 100%;
+    }
+    .stay-content{
+        text-align: center;
+    }
+}
 
