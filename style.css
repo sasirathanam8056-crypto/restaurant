@@ -78,12 +78,14 @@ button:hover{
     margin-top: 350px;
 }
 .background{
-  background-image: url(https://tse2.mm.bing.net/th/id/OIP.PtUilt_pxWnD9hDJoYtKXQHaE8?pid=Api&P=0&h=180);
+  /* background-image: url(../background.avif);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 100%; */
 }
 
-.topic{
+
+
+ .topic{
     width: 100%;
     height: 60px;
     border: none;
@@ -111,7 +113,7 @@ h3{
 }
 
 .com{
-    background-image: url(https://static.vecteezy.com/system/resources/previews/005/140/844/large_2x/brown-wooden-table-on-coffee-shop-or-restaurant-background-free-photo.jpg);
+    background-image: url(../brown-wooden-table-on-coffee-shop-or-restaurant-background-free-photo.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
@@ -127,7 +129,7 @@ h4{
    /* box-shadow: 0px 0px 20px whitesmoke; */
    /* background-color: rgb(179, 221, 179); */
    /* background-color:rgb(177, 1, 1) ; */
-}
+ }
 
 hr{
     width: 90%;
@@ -151,8 +153,8 @@ select{
   border: none;
   background-color:rgb(244, 160, 5);
   color: whitesmoke;
-  border-radius: 20px;
-}
+  border-radius: 20px; 
+} 
 .in{
     border: none;
 }
@@ -224,10 +226,10 @@ select{
       font-size:14px;
 }
 
-/* .btn:hover{
+.btn:hover{
       background:#e64a19;
       transform:scale(1.05);
-} */
+}
 
 .tag{
       position:absolute;
@@ -285,8 +287,8 @@ select{
 }
 .box1 :hover{
     /* transform:translateY(100px) translateX(100px); */
-    transform: rotateY(200deg);
-    transition-duration: 2s;
+    transform: rotateY(20deg);
+    transition-duration: 1s;
 
 }
 
@@ -338,9 +340,9 @@ input{
   /* display: flex;
   gap: 20px;
   justify-content: center; */
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
-  margin-left: 75px;
+  margin-left: 90px;
 }
 
 .socials a {
@@ -397,111 +399,184 @@ input{
  }
  
 
- @media (max-width: 900px) {
+ /* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media screen and (max-width: 768px){
+
+  body{
+    overflow-x: hidden;
+  }
 
   /* NAVBAR */
-  .topic {
+  .topic{
     flex-wrap: wrap;
     height: auto;
     padding: 10px;
     justify-content: center;
   }
 
-  h2 {
-    font-size: 20px;
-    text-align: center;
-    margin: 10px 0;
-  }
-
-  h3 {
-    font-size: 14px;
-    margin: 10px;
-  }
-
-  /* HERO */
-  .hotel-card {
-    margin-left: 0;
+  .topic h2{
     width: 100%;
-    height: 400px;
-  }
-
-  .content {
-    left: 10px;
-    bottom: 20px;
-  }
-
-  .content h1 {
+    text-align: center;
+    margin-top: 10px;
     font-size: 22px;
   }
 
-  .royal {
-    font-size: 24px;
-    margin-top: 120px;
+  .topic h3{
+    margin: 10px;
+    font-size: 15px;
   }
 
-  /* IMAGE ROW */
-  .image {
+  #dash{
+    margin-top: 10px;
+  }
+
+  /* HERO SECTION */
+  .com{
+    background-size: cover;
+    padding-bottom: 30px;
+  }
+
+  .com img{
+    width: 260px !important;
+    height: auto !important;
+    margin-left: 50px !important;
+    margin-top: 90px !important;
+  }
+
+  h4{
+    margin-top: 20px !important;
+    margin-left: 20px !important;
+    font-size: 28px !important;
+    text-align: center;
+    height: auto;
+  }
+
+  h4 span{
+    font-size: 14px !important;
+  }
+
+  /* FEATURES */
+  div i{
+    margin-left: 10px !important;
+    margin-top: 20px !important;
+  }
+
+  /* FOOD IMAGE ROW */
+  .image{
     flex-wrap: wrap;
     justify-content: center;
     margin-left: 0;
   }
 
-  /* MENU */
-  .menu-container {
-    margin-left: 0;
+  .image img{
+    margin: 15px !important;
+    width: 110px !important;
+    height: auto !important;
+  }
+
+  /* MENU CARDS */
+  .menu-container{
     grid-template-columns: 1fr;
+    margin-left: 0;
     padding: 10px;
   }
 
-  .menu-card {
+  .menu-card{
     margin-left: 0;
   }
 
-  /* MANAGEMENT */
-  .management {
+  /* MANAGEMENT SECTION */
+  .management{
     flex-direction: column;
     height: auto;
   }
 
   .d-1,
-  .d-2 {
+  .d-2{
     width: 100%;
     height: auto;
   }
 
-  .box1 {
+  .box1{
     float: none;
     margin: 20px auto;
   }
 
-  /* CONTACT */
+  /* MENU RIGHT SIDE */
+  .d-2 img{
+    margin-left: 20px !important;
+  }
+
+  .d-2 h6{
+    font-size: 15px !important;
+    margin-left: 140px !important;
+  }
+
+  /* CONTACT BOXES */
   .man1,
   .man2,
-  .man3 {
+  .man3{
     float: none;
     width: 90%;
     margin: 20px auto;
+    height: auto;
   }
 
-  .boxx {
-    width: 90%;
-    margin: 20px auto;
+  /* CONTACT FORM */
+  .boxx{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
   }
 
   input,
-  textarea {
-    width: 100%;
-  }
-
-  /* ABOUT TEXT */
-  .para {
+  textarea{
     width: 90%;
-    margin-left: 20px;
+    margin-left: 10px !important;
   }
 
-  /* SOCIAL */
-  .socials {
+  textarea{
+    height: 100px;
+  }
+
+  /* ABOUT SECTION */
+  .comon{
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .abt{
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .para{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+
+  .btn-0{
+    margin-left: 35%;
+  }
+
+  .comon img{
+    width: 220px !important;
+    height: auto !important;
+    margin-left: 70px !important;
+    margin-top: 20px !important;
+  }
+
+  /* SOCIAL ICONS */
+  .socials{
     justify-content: center;
     margin-left: 0;
+    flex-wrap: wrap;
   }
+
 }
